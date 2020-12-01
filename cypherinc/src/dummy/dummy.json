@@ -1,0 +1,352 @@
+
+[{
+        "catId": 1,
+        "category_name": "Sports",
+        "person": [{
+                "catId": 1,
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Cricket",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": 1,
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Cricket",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": 1,
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Cricket",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": 1,
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Cricket",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": 1,
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Cricket",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": 2,
+        "category_name": "Musik",
+        "person": [{
+                "catId": 2,
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Musician",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": 2,
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Musician",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": 2,
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Musician",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": 2,
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Musician",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": 2,
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Musician",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": 3,
+        "category_name": "Film Og TV",
+        "person": [{
+                "catId": 3,
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": 3,
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": 3,
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": 3,
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": 3,
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": "mpv",
+        "category_name": "Most popular Videoder",
+        "person": [{
+                "catId": "mpv",
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Sports",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": "mpv",
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Film Og TV",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": "mpv",
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Musician",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": "mpv",
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Debat",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": "mpv",
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Social medier",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": 4,
+        "category_name": "Social Medier",
+        "person": [{
+                "catId": 4,
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Social Medier",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": 4,
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Social Medier",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": 4,
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Social Medier",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": 4,
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Social Medier",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": 4,
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Social Medier",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": "K1",
+        "category_name": "Kategorier",
+        "person": [{
+                "catId": "K1",
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Fangerne pa fortet",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": "K1",
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Knaek cancer",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": "K1",
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Vild Med dans",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": "K1",
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Rod kors",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": "K1",
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Fangerne pa fortet",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    },
+    {
+        "catId": 5,
+        "category_name": "Velgorenhed",
+        "person": [{
+                "catId": 5,
+                "id": 1,
+                "email": "michael.lawson@reqres.in",
+                "category": "Velgorenhed",
+                "first_name": "Michael",
+                "last_name": "Lawson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+            },
+            {
+                "catId": 5,
+                "id": 2,
+                "email": "lindsay.ferguson@reqres.in",
+                "category": "Velgorenhed",
+                "first_name": "Lindsay",
+                "last_name": "Ferguson",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+            },
+            {
+                "catId": 5,
+                "id": 3,
+                "email": "tobias.funke@reqres.in",
+                "category": "Velgorenhed",
+                "first_name": "Tobias",
+                "last_name": "Funke",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+            },
+            {
+                "catId": 5,
+                "id": 4,
+                "email": "byron.fields@reqres.in",
+                "category": "Velgorenhed",
+                "first_name": "Byron",
+                "last_name": "Fields",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+            },
+            {
+                "catId": 5,
+                "id": 5,
+                "email": "george.edwards@reqres.in",
+                "category": "Velgorenhed",
+                "first_name": "George",
+                "last_name": "Edwards",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+            }
+        ]
+    }
+]

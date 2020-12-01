@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1536px) { 
+header .header-main{padding:8px 70px}
+.black-bg{padding:60px 70px 1px 70px}
+.slider-box{padding:50px 70px 10px 70px}
+.slider-box.last{padding:50px 70px 60px 70px}
+.most-popular-videos-area{padding:60px 70px}
+.categories-area{padding:50px 0px 10px 70px}
+
+.top-main-area .content h3{font-size:50px}
+.top-main-area .content{padding:0 50px}
+.top-main-area .content .rightside{width:60%}
+.top-main-area .content .device-area{width:640px}
+.top-main-area .video-area-profile{width:200px; top: 12px; left: 233px;}
+.top-main-area .video-area-profile video{max-height: 384px; min-height: 384px;}
+}
+@media only screen and (max-width: 1366px) { 
+header .header-main{padding:8px 50px}
+.top-main-area{padding:0 50px}
+.black-bg{padding:60px 50px 1px 50px}
+.slider-box{padding:50px 50px 10px 50px}
+.slider-box.last{padding:50px 50px 60px 50px}
+.most-popular-videos-area{padding:60px 50px}
+.categories-area{padding:50px 0px 10px 50px}
+
+.top-main-area .content h3{font-size:50px}
+.top-main-area .content{padding:0 50px}
+.top-main-area .content .rightside{width:60%}
+.top-main-area .content .device-area{width:640px}
+.top-main-area .video-area-profile{width:200px; top: 12px; left: 233px;}
+.top-main-area .video-area-profile video{max-height: 384px; min-height: 384px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+	
+header .header-main{padding:8px 30px}
+.top-main-area{padding:0 30px}
+.black-bg{padding:60px 30px 1px 30px}
+.slider-box{padding:50px 30px 10px 30px}
+.slider-box.last{padding:30px 30px 60px 30px}
+.most-popular-videos-area{padding:60px 30px}
+.categories-area{padding:50px 0px 10px 30px}
+
+.top-main-area .top-image{background:url(../images/top-mobile-banner.png)center center no-repeat; background-size:cover}
+.top-main-area .content h3{font-size:50px}
+.top-main-area .content{padding:0px; display:block}
+.top-main-area .content .leftside{width:100%; padding:40px; text-align:center}
+.top-main-area .content ul li{float:none; display:inline-block}
+.top-main-area .content .rightside{width:100%}
+.top-main-area .content .device-area{width:640px; margin:0 auto}
+.top-main-area .video-area-profile{width:200px; top: 12px; left: 233px;}
+.top-main-area .video-area-profile video{max-height: 384px; min-height: 384px;}
+
+.black-bg .categories-name a{font-size:13px; padding: 0 20px;line-height: 40px;}
+
+.categories-area h2{margin-right:30px}	
+.categories-area .owl-nav{right:30px}
+.categories-area .cate_box .name{font-size:20px}
+
+.footer_main{padding:60px 40px}
+.footer_main .subscribe-area{margin-bottom:25px}
+.black-bg .owl-stage{width:auto !important}
+}
+
+
+@media only screen and (max-width: 767px) { /** homepage */
+	
+header .header-main{padding:8px 20px}
+header .header-main .logo{width:78px; margin:13px 0}
+header .header-main .login-btn, header .header-main .register-btn{display:none}
+header .header-main .btn-search{font-size:0px; margin:18px 0}
+header .header-main .btn-search i{font-size:15px}
+
+.top-main-area{padding:0px}
+.black-bg{padding:30px 0px 1px 20px}
+.slider-box{padding:30px 0px 10px 20px}
+.slider-box.last{padding:30px 0px 30px 20px}
+.most-popular-videos-area{padding:60px 0px 60px 20px}
+.categories-area{padding:50px 0px 10px 20px}
+
+.top-main-area .top-image{background:url(../images/top-mobile-banner.png)center center no-repeat; background-size:cover}
+.top-main-area .content h3{font-size:32px}
+.top-main-area .content{padding:0px; display:block}
+.top-main-area .content .leftside{width:100%; padding:20px; }
+.top-main-area .content ul li{float:none; display:inline-block; width:90px;height:90px;margin:0px}
+.top-main-area .content ul li a{font-size:16px; line-height:20px; padding:25px 0}
+
+.top-main-area .content .rightside{width:100%}
+.top-main-area .content .device-area{width:320px; margin:0 auto}
+.top-main-area .video-area-profile{width: 106px; top: 19px;left: 113px; padding:6px 10px 0 10px}
+.top-main-area .video-area-profile video{max-height: 184px; min-height: 184px; border-radius:6px}
+
+.black-bg .categories-name a{font-size:13px; padding: 0 20px;line-height: 40px;}
+
+.categories-area .owl-nav{right:20px; top:-54px}
+.categories-area .cate_box{border-radius:20px}
+.categories-area .cate_box img{border-radius:20px}
+.categories-area .cate_box .name{font-size:20px}
+
+
+.celebrity_box .name{font-size:13px; line-height:18px; left:8px; bottom:8px}
+.celebrity_box .name span{font-size:12px; line-height:14px}
+.celebrity_box .price{font-size:10px; line-height:16px; left:10px; top:10px}
+.categories-area h2, .most-popular-videos-area h2, .slider-box h2{line-height: 18px; padding-bottom: 15px; margin-bottom: 15px;font-size: 18px; margin-right:20px}
+.most-popular-videos-area h2 a, .slider-box h2 a{font-size:14px}
+.categories-area h2 a{margin-right:60px;font-size:14px}
+
+.footer_main{padding:40px 30px}
+.footer_main .subscribe-area{margin-bottom:25px}
+.copyright_area{padding:0 20px}
+.footer_main .register-btn, .footer_main .subscribe-area{width:100%}
+.black-bg .owl-stage{width:1200px !important}
+}
+
+

@@ -1,12 +1,15 @@
 import React from 'react'
+
 import deviceImg from '../images/devices_desktop.png'
+import video from '../images/topvideo.mov'
 
 function Banner() {
     return ( 
+        <>
         <section>
         <div className = "top-main-area" >
         <div className = "top-image" >
-        <div className = "content mt-5 pt-5" >
+        <div className = "content" >
         <div className = "leftside" >
         <h3> Personlige < br /> hilsener < br /> fra de kendte </h3>
          <ul className = "menu" >
@@ -29,7 +32,8 @@ function Banner() {
             preload = "none" 
         >
             <source 
-                src = "/images/topvideo.mov"
+                // src = "/images/topvideo.mov"
+                src={video}
                 type = "video/mp4" 
             />
         </video> 
@@ -40,6 +44,7 @@ function Banner() {
         </div> 
         </div> 
         </section>
+        </>
     )
 }
 

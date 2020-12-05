@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import dummy from '../dummy/dummy.json'
 import image from '../images/photo-25.jpg'
 import catImg from '../images/categories.png'
@@ -10,6 +11,7 @@ class Categories2 extends Component {
     
     render() {
         return (
+            <>
             <section>
 {/* =======================================Category List================================ */}
                 <div className="black-bg">
@@ -58,6 +60,7 @@ class Categories2 extends Component {
 {/* ===================================== Individual Categories ========================================== */}
                 <ShowCategories />
             </section>
+        </>
         )
     }
 }
@@ -158,30 +161,7 @@ class ShowCategories extends React.Component{
                             })
                         }
                         </OwlCarousel> 
-                    }
-                    {/* <OwlCarousel
-                        loop
-                        dots={false}
-                        margin={10}
-                        responsive={option2}
-                    >
-                    {
-                        data.person.map((d, j) =>{
-                            return(                       
-                                <div className="item" key={j}>
-                                    <div className={`${d.catId=='K1'? 'cate_box': 'celebrity_box'}`}>
-                                        <a href="detail.html">
-                                            <img src={d.avatar} alt="Image"/>
-                                            <div className="bg"></div>
-                                            <div className={`${data.catId=='K1'? 'd-none': 'price'}`}>320 kr.</div>
-                                            <div className="name">{d.first_name} {d.last_name}<span className={`${data.catId=='K1'? 'd-none': 'd-block'}`}>{d.category}</span></div>
-                                        </a>
-                                    </div>
-                                </div>
-                            )
-                        })
-                    }
-                    </OwlCarousel> */}
+                    }                    
                 </div>
                 </div>
                 )                                   

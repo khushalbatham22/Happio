@@ -1,34 +1,29 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header1 from './components/Header1';
-import Footer from './components/Footer';
-import ScrollArrow from './components/ScrollArrow';
+
+import Footer from './components/mainComponents/Footer';
+import ScrollArrow from './components/mainComponents/ScrollArrow';
+import Header from './components/mainComponents/Header';
+import Logind from './components/Logind';
+import Home from './components/Home';
 
 class App extends React.Component {
 
   render(){
     return (
-      <div className="App">      
+      <div> 
         <Header/>
-      </div>
-    );
-  }
-}
+        <ScrollArrow/>
 
-class Header extends React.Component {
-
-  state={
-    data: "This is state data of Header Component",
-    apiData: null
-  }
-  
-  render() {
-    
-    return (
-      <div>
-        <ScrollArrow />             
-        <Header1 />
-        <Footer/>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/login" component={Logind} />
+          <Route path="/register-profile"/>
+        </Switch>
+        
+        <Footer/>  
       </div>
     );
   }

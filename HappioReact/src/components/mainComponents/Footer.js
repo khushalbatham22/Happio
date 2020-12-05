@@ -1,6 +1,8 @@
 import React from 'react'
-import fb from '../images/facebook.svg'
-import insta from '../images/instagram.svg'
+
+import fb from '../../images/facebook.svg'
+import insta from '../../images/instagram.svg'
+import Input from '../commonComponents/Input';
 
 function Footer() {
     return ( 
@@ -11,7 +13,7 @@ function Footer() {
         <h3> Hold dig opdateret: Få Happios nyhedsbrev </h3> 
         <p> Få besked når din yndlingsprofil kommer på Happio </p> 
         <div className = "subscribe-area" >
-        <input 
+        <Input 
             type = "text"
             className = "form-control"
             placeholder = "Din e-mail" 

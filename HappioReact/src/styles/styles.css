@@ -186,6 +186,64 @@ header .header-main .register-btn:hover {
     border: 1px solid #d1a907;
 }
 
+/*===============Pop-up================*/
+.search-popup .modal-content {
+    background: transparent;
+    border: none;
+}
+
+.search-popup .modal-content .modal-body {
+    padding: 0px;
+    position: relative;
+}
+
+.search-popup .modal-content .modal-body h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'montserratbold';
+    color: #fff;
+    line-height: 30px;
+    margin: 0 0 25px 0;
+}
+
+.search-popup .modal-content .modal-body .search-box {
+    position: relative;
+    /* border: rgba(57,180,246,0.31) 8px solid; */
+    border:rgb(77,57,19, 0.31) 8px solid;
+    border-radius: 25px;
+}
+
+.search-popup .modal-content .modal-body .search-box .form-control {
+    background: #fff;
+    border: none;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.search-popup .modal-content .modal-body .search-box .btn-search {
+    width: 60px;
+    height: 60px;
+    border-radius: 0px;
+    background: transparent;
+    line-height: 60px;
+    padding: 0px;
+    color: #d1a907;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.search-popup .modal-content .modal-body .close-btn {
+    position: absolute;
+    top: -140px;
+    right: -240px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* ====================top-main-area==================== */
 .top-main-area {
     margin: 0px;
     padding: 0 64px;
@@ -816,4 +874,127 @@ header .header-main .register-btn:hover {
         top: 15px;
         right: 35px;
     }
+}
+
+/* =========================================Page-2================================ */
+.login-page{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #121212;
+    display: inline-block;
+}
+
+.login-page .login-area.border_bottom {
+    border-bottom: #292929 10px solid;
+}
+
+.login-page .login-area {
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+.login-page .login-area .content h2 {
+    font-size: 26px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-family: 'montserratbold';
+    text-align: center;
+}
+
+
+/* paragraphs */
+
+.login-page .login-area .content p {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+.login-page .login-area .content p strong {
+    font-family: 'montserratsemibold';
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 767px){
+.login-page .login-area {
+    padding: 50px 0;
+}
+}
+
+.login-page .login-area .content .form-control {
+    background: #fff;
+    border: none;
+    height: 50px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.login-page .login-area .content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px){
+.login-page .login-area .content {
+    padding: 0 20px;
+}
+}
+
+.login-page .login-area .content .login-facebook {
+    background: #d1a907;
+    border-radius: 5px;
+    font-family: 'montserratmedium';
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 40px;
+    margin: 0 0 30px 0;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.login-page .login-area .content .login-facebook i {
+    position: absolute;
+    left: 13px;
+    top: 10px;
+    font-size: 30px;
+}
+
+.login-page .login-area .content .line {
+    background: #757575;
+    width: 64px;
+    height: 1px;
+    margin: 0 auto 30px auto;
+}
+
+.login-page .login-area .content .btn-login {
+    background: transparent;
+    border: #d1a907 1px solid;
+    border-radius: 5px;
+    font-family: 'montserratbold';
+    font-size: 16px;
+    color: #d1a907;
+    padding: 12px 40px;
+    margin: 30px auto 30px auto;
+    text-decoration: none;
+    width: 60%;
+    display: block;
+}
+
+.login-page .login-area .content .btn-login-full {
+    background: #d1a907;
+    border: #d1a907 1px solid;
+    border-radius: 5px;
+    font-family: 'montserratbold';
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 40px;
+    margin: 30px auto 30px auto;
+    text-decoration: none;
+    width: 60%;
+    display: block;
 }

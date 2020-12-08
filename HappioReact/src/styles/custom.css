@@ -38,6 +38,11 @@
         max-height: 384px;
         min-height: 384px;
     }
+    .celebrity-profile-box{padding:70px}
+    .celebrity-profile-box .donated-btn {font-size:14px}
+    .watch-videos-box{padding:70px}
+    .watch-videos-box .video-box{margin-bottom:20px}
+    .also-see-box{padding:70px}
 }
 
 @media only screen and (max-width: 1366px) {
@@ -83,6 +88,8 @@
         max-height: 384px;
         min-height: 384px;
     }
+    .celebrity-profile-box{padding:50px}
+    .celebrity-profile-box .donated-btn {font-size:14px}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -166,6 +173,11 @@
     .black-bg .owl-stage {
         width: auto !important
     }
+    .celebrity-profile-box{padding:30px}
+    .celebrity-profile-box .celebrity-profile-photo{width:100%; margin-bottom:30px;}
+    .celebrity-profile-box .btn-sign-in{width:100%}
+    .celebrity-profile-box .link{width:100%; margin-bottom:20px}
+    .celebrity-profile-box .donated-btn {border-radius: 60px; line-height: 25px; margin-bottom: 35px; padding: 10px; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -318,4 +330,9 @@
     .black-bg .owl-stage {
         width: 1200px !important
     }
+    .celebrity-profile-box{padding:30px}
+    .celebrity-profile-box .celebrity-profile-photo{width:100%; margin-bottom:30px;}
+    .celebrity-profile-box .btn-sign-in{width:100%}
+    .celebrity-profile-box .link{width:100%; margin-bottom:20px}
+    .celebrity-profile-box .donated-btn {border-radius: 60px; line-height: 25px; margin-bottom: 35px; padding: 10px; }
 }

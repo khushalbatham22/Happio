@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 import dummy from '../dummy/dummy.json'
 import image from '../images/photo-25.jpg'
@@ -66,6 +67,8 @@ class Categories2 extends Component {
 }
 
 class ShowCategories extends React.Component{
+
+    getData = (d) => console.log(d);
    
     render(){
         const option1 = {
@@ -103,7 +106,7 @@ class ShowCategories extends React.Component{
                 return(
                 <div className={`${data.catId=='K1'? 'categories-area':data.catId=='mpv'? 'most-popular-videos-area': 'slider-box'}`} key={i}>                     
                 <h2>{dummy[i].category_name} <a href="#">Vis alle</a></ h2>
-                <div className={`${data.catId=='K1'? 'categories-slider':data.catId=='mpv'? 'popular-videos-slider': 'celebrity-slider'} owl-carousel owl-theme owl-loaded owl-text-select-on`}>                                
+                <div className={`${data.catId=='K1'? 'categories-slider':data.catId=='mpv'? 'popular-videos-slider': 'celebrity-slider'} owl-carousel owl-theme owl-loaded owl-text-select-on`}>        
                     {
                         data.catId == 'K1'||data.catId == 'mpv'? 
                         <OwlCarousel
@@ -116,16 +119,12 @@ class ShowCategories extends React.Component{
                                 return(                        
                                     <div className="item" key={j}>
                                         <div className={`${d.catId=='K1'? 'cate_box': 'celebrity_box'}`}>
-                                            <a href="detail.html">
-                                                {/* <img src="" alt="Image"/> */}
-                                                {/* <img src={d.avatar} alt="Image"/> */}
-                                                {/* <img src={require('../images/photo-12.jpg')}/> */}
-                                                {/* <img src='../../src/images/photo-25.jpg'/> */}
+                                            <Link to='/details'>
                                                 <img src={catImg} alt="Image"/>
                                                 <div className="bg"></div>
                                                 <div className={`${data.catId=='K1'? 'd-none': 'price'}`}>320 kr.</div>
                                                 <div className="name">{d.first_name} {d.last_name}<span className={`${data.catId=='K1'? 'd-none': 'd-block'}`}>{d.category}</span></div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 )
@@ -142,19 +141,15 @@ class ShowCategories extends React.Component{
                             data.person.map((d, j) =>{
                                 console.log(d.avatar)
                                 return(                        
+                                    // <ListItem profileInfo={d} handleChange={this.getData}/>
                                     <div className="item" key={j}>
                                         <div className={`${d.catId=='K1'? 'cate_box': 'celebrity_box'}`}>
-                                            <a href="detail.html">
-                                                {/* <img src={d.avatar} alt="Image"/> */}
-                                                {/* <img src={require(`../images/photo-25.jpg`)} alt="Image"/> */}
-                                                {/* <img src={require(`/images/photo-25.jpg`)} alt="Image"/> */}
-                                                {/* <img src="cypherinc\src\images\photo-25.jpg"/> */}
-                                                {/* require(`./icons/${image}.png`) */}
+                                            <Link to='/details'>                                                
                                                 <img src={image} alt="Image"/>
                                                 <div className="bg"></div>
                                                 <div className={`${data.catId=='K1'? 'd-none': 'price'}`}>320 kr.</div>
                                                 <div className="name">{d.first_name} {d.last_name}<span className={`${data.catId=='K1'? 'd-none': 'd-block'}`}>{d.category}</span></div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 )
@@ -171,4 +166,23 @@ class ShowCategories extends React.Component{
 }
 
 export default Categories2
+
+const ListItem = (props) => {
+    return(
+        <div>
+            <div className="item">
+                <div className={`${props.profileInfo.catId=='K1'? 'cate_box': 'celebrity_box'}`}>
+                    <Link to='/details'>
+                    <a>
+                        <img src={image} alt="Image"/>
+                        <div className="bg"></div>
+                        <div className={`${props.profileInfo.catId=='K1'? 'd-none': 'price'}`}>320 kr.</div>
+                        <div className="name">{props.profileInfo.first_name} {props.profileInfo.last_name}<span className={`${props.profileInfo.catId=='K1'? 'd-none': 'd-block'}`}>{props.profileInfo.category}</span></div>
+                    </a>
+                </Link>
+                </div>
+            </div>
+        </div>
+    );
+   }
 

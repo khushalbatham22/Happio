@@ -2,6 +2,7 @@ import React from 'react'
 
 import fb from '../../images/facebook.svg'
 import insta from '../../images/instagram.svg'
+
 import Input from '../commonComponents/Input';
 
 function Footer() {
